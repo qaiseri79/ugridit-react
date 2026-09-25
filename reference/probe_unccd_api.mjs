@@ -1,0 +1,34 @@
+const q = {
+  datasource: { id: 13, type: 'table' },
+  force: false,
+  queries: [
+    {
+      time_range: 'No filter',
+      filters: [
+        { col: 'indicator_uid', op: 'IN', val: ['8425', '8427', '8422'] },
+        { col: 'code_iso3', op: '==', val: 'DZA' },
+      ],
+      extras: { time_grain_sqla: 'P1D', having: '', having_druid: [] },
+      applied_time_extras: {},
+      annotation_layers: [],
+      groupby: [],
+      columns: ['indicator_name_label_metric', 'indicator_value'],
+      metrics: [],
+      order_desc: true,
+      orderby: [],
+      row_limit: 10000,
+      timeseries_limit: 0,
+      url_params: {},
+    },
+  ],
+  result_format: 'json',
+  result_type: 'full',
+}
+const res = await fetch('https://dash.unccd.unepgrid.ch/api/v1/chart/data', {
+  method: 'POST',
+  headers: { accept: 'application/json', 'Content-Type': 'application/json' },
+  body: JSON.stringify(q),
+})
+console.log('status', res.status)
+const j = await res.json()
+console.log(JSON.stringify(j).slice(0, 600))

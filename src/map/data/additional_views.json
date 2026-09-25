@@ -1,0 +1,89 @@
+[
+    {
+        "view_id": "CUSTOM-DROUGHT-2030",
+        "view_type": "cc",
+        "source_keywords": [],
+        "source_keywords_m49": [
+            "WLD"
+        ],
+        "source_keywords_gemet": [],
+        "projects_id": [
+            "MX-0SA-E4R-H05-H6Z-F3O",
+            "MX-EDD-M46-8XZ-MAG-RLC",
+            "MX-FSR-YIQ-XHJ-QWR-ACR"
+        ],
+        "view_modified_at": 1729846623,
+        "view_title": "Near Real-Time Vegetation Indexes (FAO, Monthly)",
+        "view_abstract": "Two vegetation indexes are proposed in this view from 1984 to near real time (current month - 2).\n\nUse the dropdown lists next to the legend to select the index and the temporality to be displayed.\n\nThe Vegetation Condition Index (VCI) evaluates the current vegetation health in comparison to the historical trends. The VCI relates current dekadal Normalized Difference Vegetation Index (NDVI) to its long-term minimum and maximum, normalized by the historical range of NDVI values for the same dekad. The VCI was designed to separate the weather-related component of the NDVI from the ecological element.\n\n𝑉𝐶𝐼𝑖=(𝑁𝐷𝑉𝐼𝑖−𝑁𝐷𝑉𝐼𝑚𝑖𝑛) / (𝑁𝐷𝑉𝐼𝑚𝑎𝑥−𝑁𝐷𝑉𝐼𝑚𝑖𝑛)\n\nTogether with Temperature Condition Index (TCI), Vegetation Condition Index (VCI) is used to calculate Vegetation Health Index (VHI) using formula: VHI=0.5VCI+0.5TCI\n\n@ FAO - Agricultural Stress Index System (ASIS), http://www.fao.org/giews/earthobservation/ [http://www.fao.org/giews/earthobservation/], 26/02/2024",
+        "source_title": "Global Information and Early Warning System on Food and Agriculture (GIEWS)",
+        "source_abstract": "GIEWS proposes a series of vegetation indexes. Two were extracted from it: Vegetation Condition Index (VCI), Vegetation Health Index (VHI).\n\nThe Vegetation Condition Index (VCI) evaluates the current vegetation health in comparison to the historical trends. The VCI relates current dekadal Normalized Difference Vegetation Index (NDVI) to its long-term minimum and maximum, normalized by the historical range of NDVI values for the same dekad. The VCI was designed to separate the weather-related component of the NDVI from the ecological element.\n\n𝑉𝐶𝐼𝑖=(𝑁𝐷𝑉𝐼𝑖−𝑁𝐷𝑉𝐼𝑚𝑖𝑛) / (𝑁𝐷𝑉𝐼𝑚𝑎𝑥−𝑁𝐷𝑉𝐼𝑚𝑖𝑛)\n\nTogether with Temperature Condition Index (TCI), Vegetation Condition Index (VCI) is used to calculate Vegetation Health Index (VHI) using formula: VHI=0.5VCI+0.5TCI\n\n@ FAO - Agricultural Stress Index System (ASIS), http://www.fao.org/giews/earthobservation/ [http://www.fao.org/giews/earthobservation/], 26/02/2024",
+        "source_notes": "",
+        "project_id": "MX-0SA-E4R-H05-H6Z-F3O",
+        "view_created_at": 1706106730,
+        "source_start_at": 441763200,
+        "source_end_at": null,
+        "source_released_at": 1388534400,
+        "source_modified_at": null,
+        "range_start_at": 441763200,
+        "range_end_at": 1729846623,
+        "range_start_at_year": 1984,
+        "range_end_at_year": 2024,
+        "range_years": [
+            1984,
+            1985,
+            1986,
+            1987,
+            1988,
+            1989,
+            1990,
+            1991,
+            1992,
+            1993,
+            1994,
+            1995,
+            1996,
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024
+        ],
+        "source_keywords_gemet_label": [],
+        "source_keywords_m49_label": [
+            "World"
+        ],
+        "projects_title": [
+            "UNCCD – Land restoration",
+            "Biodiversity",
+            "Congo Basin Peatlands: securing crucial biodiversity, carbon and water stores"
+        ],
+        "projects_description": [
+            "The UNCCD is the global voice for land. We promote practices that avoid, reduce and reverse land degradation and are the driving force behind Sustainable Development Goal 15 and Land Degradation Neutrality.",
+            "In this project you will find key geospatial data layers on the Biodiversity topic.",
+            "This workspace was set up in the frame of the International Climate Initiative (IKI)-funded project “Securing crucial biodiversity, carbon and water stores in the Congo Basin Peatlands by enabling evidence-based decision making and good governance”, led by UNEP. It will contain relevant layers and knowledge products in support to the project"
+        ]
+    }
+]
